@@ -2,8 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: echo init
-    command: echo start
+  - init: ./mvnw clean install
+    command: ./mvnw spring-boot:run 
 
 vscode:
   extensions:
