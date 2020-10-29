@@ -1,1 +1,1 @@
-web: ./mvnw start
+web: ./mvnw spring-boot:run
