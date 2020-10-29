@@ -4,3 +4,7 @@ image:
 tasks:
   - init: echo init
     command: echo start
+
+vscode:
+  extensions:
+    - Pivotal.vscode-boot-dev-pack@0.0.8:KGahbNlLCY19QUebUzdLbA==
