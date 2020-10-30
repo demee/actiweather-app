@@ -10,7 +10,7 @@ RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
 RUN bash -c "wget https://cli-assets.heroku.com/branches/stable/heroku-linux-amd64.tar.gz && \
     mkdir -p ~/bin && \
     tar -xvzf heroku-linux-amd64.tar.gz -C ~/bin && \
-    export PATH=$PATH:~/bin/heroku/bin" 
+    echo \"export PATH=$PATH:~/bin/heroku/bin\" >> ~/.bash_profile"
 
 # ensure that /usr/local/bin is in the PATH environment variable
 
