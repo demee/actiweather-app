@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+javacore.*
+core.*
+Snap.*
+jitdump*
